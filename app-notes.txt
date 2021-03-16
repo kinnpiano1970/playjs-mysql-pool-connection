@@ -1,0 +1,9 @@
+=> start with req to root url "/"
+
+=> call to "/" route loads file home.html
+
+=> client javascript calls window.promt() to ask for userID (only userID needed to login in for now)
+
+=> **(ver 2.0) save userID in sessionStorage() or localStorage so user does not keep getting prompt to enter userID
+
+=> on page load, client side javascript does FETCH request to route "/get-user?userID=userID" to get users data from the database 
