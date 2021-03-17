@@ -5,7 +5,7 @@ module.exports = {
         host     : '185.148.44.117',         
         port     :  3306,
         user     : 'cdkinney_development',
-        password : 'nkJGTLS5@HJWwcq',
+        password : '',
         database : 'cdkinney_dev_database',
     },
     sip_saver_db: {
@@ -13,7 +13,7 @@ module.exports = {
         host     : '185.148.44.117',         
         port     :  3306,
         user     : 'cdkinney_sipsaver_developers',
-        password : '5qN{9b)a1vqa',
+        password : '',
         database : 'cdkinney_sipsaver_db'
     },
     sakila: {
@@ -22,7 +22,7 @@ module.exports = {
         host     : '185.148.44.117',         
         port     :  3306,
         user     : 'cdkinney_sakila_user',
-        password : '1945061970$$',
+        password : '',
         database : 'cdkinney_sakila'
     }
     
